@@ -1,17 +1,12 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.4">
   <diagram name="Page-1" id="BTz9amYrOeSH2nesx5QI">
-    <mxGraphModel dx="994" dy="1344" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1213" dy="1344" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="MNnDWHtIkO2TY7XGa9UR-1" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.laptop;pointerEvents=1;" vertex="1" parent="1">
           <mxGeometry x="-10" y="1" width="129" height="87" as="geometry" />
         </mxCell>
-        <UserObject label="Local Computer" placeholders="1" name="Variable" id="MNnDWHtIkO2TY7XGa9UR-2">
-          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
-            <mxGeometry x="-4" y="-46" width="112" height="47" as="geometry" />
-          </mxCell>
-        </UserObject>
         <mxCell id="MNnDWHtIkO2TY7XGa9UR-5" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="MNnDWHtIkO2TY7XGa9UR-4">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="252" y="126" as="targetPoint" />
@@ -66,16 +61,36 @@
           <mxGeometry x="251" y="124" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="MNnDWHtIkO2TY7XGa9UR-37" value="CloudFormation" style="text;strokeColor=none;fillColor=none;html=1;fontSize=18;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="MNnDWHtIkO2TY7XGa9UR-6">
-          <mxGeometry x="483" y="93" width="168" height="40" as="geometry" />
+          <mxGeometry x="464" y="50.5" width="168" height="40" as="geometry" />
         </mxCell>
         <mxCell id="MNnDWHtIkO2TY7XGa9UR-38" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.cloudformation;fillColor=#759C3E;gradientColor=none;" vertex="1" parent="MNnDWHtIkO2TY7XGa9UR-6">
-          <mxGeometry x="495" y="137" width="144" height="156" as="geometry" />
+          <mxGeometry x="494" y="90.5" width="110" height="116.5" as="geometry" />
+        </mxCell>
+        <mxCell id="MNnDWHtIkO2TY7XGa9UR-41" value="AWS Lambda" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.lambda;" vertex="1" parent="MNnDWHtIkO2TY7XGa9UR-6">
+          <mxGeometry x="656" y="286" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="MNnDWHtIkO2TY7XGa9UR-42" value="Amazon SNS" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.sns;" vertex="1" parent="MNnDWHtIkO2TY7XGa9UR-6">
+          <mxGeometry x="810" y="374" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="MNnDWHtIkO2TY7XGa9UR-44" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#E7157B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.eventbridge;" vertex="1" parent="MNnDWHtIkO2TY7XGa9UR-6">
+          <mxGeometry x="951" y="406" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="MNnDWHtIkO2TY7XGa9UR-45" value="AWS Identity and Access Management" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.identity_and_access_management;" vertex="1" parent="MNnDWHtIkO2TY7XGa9UR-6">
+          <mxGeometry x="805" y="173" width="80" height="120" as="geometry" />
         </mxCell>
         <mxCell id="MNnDWHtIkO2TY7XGa9UR-31" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#DD344C;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.email;" vertex="1" parent="1">
           <mxGeometry x="1460" y="180.5" width="78" height="69" as="geometry" />
         </mxCell>
         <mxCell id="MNnDWHtIkO2TY7XGa9UR-32" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/intune/Device_Compliance.svg;" vertex="1" parent="1">
           <mxGeometry x="1545" y="152.5" width="113.97" height="125" as="geometry" />
+        </mxCell>
+        <UserObject label="Email or SMS of your live game score data" placeholders="1" name="Variable" id="MNnDWHtIkO2TY7XGa9UR-40">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="1480" y="290" width="131" height="58" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="MNnDWHtIkO2TY7XGa9UR-46" value="Local Computer" style="text;strokeColor=none;fillColor=none;html=1;fontSize=18;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="4.5" y="-45" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
