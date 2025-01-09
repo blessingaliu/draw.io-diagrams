@@ -1,9 +1,27 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.4">
   <diagram name="Page-1" id="BTz9amYrOeSH2nesx5QI">
-    <mxGraphModel>
+    <mxGraphModel dx="2074" dy="1350" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="MNnDWHtIkO2TY7XGa9UR-1" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.laptop;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="1" width="129" height="87" as="geometry" />
+        </mxCell>
+        <UserObject label="Local Computer" placeholders="1" name="Variable" id="MNnDWHtIkO2TY7XGa9UR-2">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="-4" y="-46" width="112" height="47" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="MNnDWHtIkO2TY7XGa9UR-5" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="MNnDWHtIkO2TY7XGa9UR-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="252" y="126" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Write Python Code &amp;amp; CloudFormation Fle&amp;nbsp;" placeholders="1" name="Variable" id="MNnDWHtIkO2TY7XGa9UR-4">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="-19" y="94" width="159" height="64" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
